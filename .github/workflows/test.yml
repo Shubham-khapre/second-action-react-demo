@@ -8,7 +8,7 @@ jobs:
             - name: clone repo
               uses: actions/checkout@v3
             - name: install nodejs 18
-              uses: actions/install-node@v3
+              uses: actions/setup-node@v3
               with:
                 node-version: 18
             - name: build npm
