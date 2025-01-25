@@ -6,4 +6,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: context meta data
-              run: echo ${{ toJson(github) }}
+              run: echo "${{ toJSON(github) }}"
